@@ -1,0 +1,10 @@
+maven\project\model\MessageData.class
+maven\project\util\AttributeNames.class
+maven\project\controller\MessageController.class
+maven\project\service\MessageItemServiceImpl.class
+maven\project\service\MessageItemService.class
+maven\project\util\Mappings.class
+maven\project\config\WebConfig.class
+maven\project\config\WebAppInitializer.class
+maven\project\util\ViewNames.class
+maven\project\model\MessageItem.class
