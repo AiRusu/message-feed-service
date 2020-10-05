@@ -25,9 +25,6 @@ public class MessageData {
         LocalDateTime now = LocalDateTime.now();
         LocalDateTime xMinutesBehind = now.minusMinutes(maxAge);
 
-//        while (itemIterator.hasNext()) {
-//            MessageItem item = itemIterator.next();
-
          for( int i =0; i<messageItems.size(); i++){
                 MessageItem message = messageItems.get(i);
 

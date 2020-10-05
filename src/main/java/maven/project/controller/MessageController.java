@@ -42,7 +42,7 @@ public class MessageController {
         return ViewNames.MESSAGES_LIST;
     }
 
-    @PostMapping(Mappings.ADD_MESSAGE)
+    @RequestMapping(value = Mappings.ADD_MESSAGE, method = {RequestMethod.POST} )
     public String processItem(@Valid @ModelAttribute(AttributeNames.MESSAGE_ITEM) MessageItem messageItem) {
         log.info("MessageItem from  = {}", messageItem);
         messageItemService.addMessage(messageItem);

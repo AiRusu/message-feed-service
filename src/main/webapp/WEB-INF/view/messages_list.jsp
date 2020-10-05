@@ -21,7 +21,7 @@
                 <th>Edit</th>
             </tr>
 
-            <c:forEach var="message" message="${messageData.message}">
+            <c:forEach var="message" messageItems="${messageData.message}">
 
                 <c:url var="viewUrl" value="${Mappings.MESSAGES}">
                     <c:param name="id" value="${message.id}"/>
